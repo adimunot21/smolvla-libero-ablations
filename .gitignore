@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Project outputs (large)
+outputs/
+videos/
+checkpoints/
+*.mp4
+*.pt
+*.safetensors
+wandb/
+
+# HF / data caches
+.cache/
+data/
+datasets/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets
+.env
+*.key

@@ -1,0 +1,7 @@
+lerobot[libero,smolvla]==0.5.1
+libero==1.0.5
+imageio[ffmpeg]>=2.34
+matplotlib>=3.8
+pandas>=2.2
+seaborn>=0.13
+python-dotenv>=1.0
