@@ -49,7 +49,7 @@ for tid in range(n_tasks):
 
     log(f"\n[Task {tid}/{n_tasks-1}] {task.language!r}")
     env = OffScreenRenderEnv(bddl_file_name=bddl,
-                             camera_heights=128, camera_widths=128)
+                             camera_heights=256, camera_widths=256)
 
     succ = 0
     for ep in range(N_EPS_PER_TASK):

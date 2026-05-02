@@ -46,8 +46,8 @@ log(f"Task: {task.language!r}")
 
 env = OffScreenRenderEnv(
     bddl_file_name=bddl,
-    camera_heights=128,
-    camera_widths=128,
+    camera_heights=256,
+    camera_widths=256,
 )
 
 # LIBERO ships per-task initial states for reproducible eval

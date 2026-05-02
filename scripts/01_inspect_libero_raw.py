@@ -50,8 +50,8 @@ log(f"        bddl='{task_bddl}'")
 log("Building OffScreenRenderEnv (this initializes MuJoCo)...")
 env = OffScreenRenderEnv(
     bddl_file_name=task_bddl,
-    camera_heights=128,
-    camera_widths=128,
+    camera_heights=256,
+    camera_widths=256,
 )
 log("Env built OK.")
 
